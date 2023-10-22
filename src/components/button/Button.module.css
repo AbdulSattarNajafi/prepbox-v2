@@ -1,0 +1,23 @@
+.btn {
+    display: inline-block;
+    text-align: center;
+    background-color: #398fe5;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 20px 28px;
+}
+
+@media (max-width: 1199.98px) {
+    .btn {
+        padding: 20px 22px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .btn {
+        font-size: 20px;
+        padding: 16px 26px;
+    }
+}

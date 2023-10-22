@@ -1,0 +1,71 @@
+.card {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.coverImage {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.coverImage img {
+    height: auto;
+}
+
+.description {
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.description h4 {
+    margin-bottom: 8px;
+}
+
+.descriptionItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.descriptionItem h5 {
+    width: 180px;
+}
+
+.descriptionList {
+    list-style: disc;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.descriptionList li {
+    font-size: inherit;
+    padding-left: 6px;
+}
+
+@media (max-width: 767.98px) {
+    .coverImage {
+        width: 120px;
+    }
+    .description {
+        padding: 0 10px;
+    }
+    .description h4 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .description h5 {
+        font-size: 16px;
+    }
+    .descriptionItem {
+        margin-bottom: 2px;
+    }
+    .descriptionItem h5 {
+        width: 140px;
+        font-size: 16px;
+    }
+}
