@@ -1,9 +1,9 @@
+import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import Instagram from './../assets/icons/instagram.png';
 import Youtube from './../assets/icons/youtube.png';
 import Linkedin from './../assets/icons/linkedin.png';
-
 import classes from './Footer.module.css';
 
 const Footer = () => {
@@ -69,20 +69,8 @@ const Footer = () => {
                         </ul>
 
                         <div className={classes['footer__links']}>
-                            <a
-                                href='/privacy-policy/'
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                Privacy Policy
-                            </a>
-                            <a
-                                href='/terms-of-use/'
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                Terms & Conditions
-                            </a>
+                            <Link to='privacy-policy'>Privacy Policy</Link>
+                            <Link to='terms-of-use'>Terms & Conditions</Link>
                         </div>
                     </div>
                 </div>

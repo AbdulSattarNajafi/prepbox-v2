@@ -3,17 +3,14 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import classes from './comparison-card.module.css';
 
-const ComparisonCard = ({ title, sessions, price, image,limits, active, linkTo }) => {
+const ComparisonCard = ({ title, sessions, price, image, limits, active, linkTo }) => {
     return (
         <div className={`${classes.card} ${active ? `${classes.active}` : ''}`}>
             <div className={classes['card__content']}>
                 <h4 className={classes['card__content-title']}>{title}</h4>
                 {/* <p className={classes['card__content-session']}>{sessions}</p> */}
                 {/* <h4 className={classes['card__content-price']}>{price}</h4> */}
-                <LazyLoadImage 
-                    className={classes['card__content-image']}
-                    src={image}
-                />
+                <LazyLoadImage className={classes['card__content-image']} src={image} />
                 <ul className={classes['card__list']}>
                     <li className={classes['card__list-item']}>
                         <Icon className={`${limits < 1 ? `${classes.blur}` : ''}`} />
