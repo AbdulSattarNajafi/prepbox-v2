@@ -55,6 +55,7 @@ const Header = () => {
                             <li className={classes.navListSocialItem}>
                                 <a
                                     rel='noreferrer'
+                                    aria-label='PrepBox Instagram'
                                     href='https://www.instagram.com/prepboxmath/'
                                     target='_blank'
                                 >
@@ -63,6 +64,7 @@ const Header = () => {
 
                                 <a
                                     rel='noreferrer'
+                                    aria-label='PrepBox Facebook'
                                     href='https://www.facebook.com/prepboxmath'
                                     target='_blank'
                                 >
