@@ -62,13 +62,19 @@ const MaterialPage = () => {
                             className={classes.navigationPrevious}
                             onClick={() => worksheetNavigationHandler()}
                         >
-                            <AiFillCaretLeft /> All Workbooks
+                            <span>
+                                <AiFillCaretLeft />
+                            </span>
+                            <span>All Workbooks</span>
                         </div>
                         <div
                             className={classes.navigationPrevious2}
                             onClick={() => bookNavigationHandler(bookName)}
                         >
-                            <AiFillCaretLeft /> {capitalizeString(bookName.replace(/-/g, ' '))}
+                            <span>
+                                <AiFillCaretLeft />
+                            </span>
+                            <span>{capitalizeString(bookName.replace(/-/g, ' '))}</span>
                         </div>
                     </div>
                     <div className={classes.navigationCurrent}>

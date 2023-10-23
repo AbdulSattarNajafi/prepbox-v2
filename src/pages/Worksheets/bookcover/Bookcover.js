@@ -79,7 +79,10 @@ const BookCover = () => {
                         className={classes.navigationBook}
                         onClick={() => worksheetNavigationHandler()}
                     >
-                        <AiFillCaretLeft /> All Workbooks
+                        <span>
+                            <AiFillCaretLeft />
+                        </span>
+                        <span>All Workbooks</span>
                     </div>
                     <div className={classes.navigationCurrent}>
                         {capitalizeString(bookName.replace(/-/g, ' '))}

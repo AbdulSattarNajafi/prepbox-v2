@@ -12,8 +12,13 @@
 .navigationBook {
     cursor: pointer;
     display: flex;
-    padding: 10px 0;
     align-items: center;
+    gap: 4px;
+    padding: 10px 0;
+}
+
+.navigationBook span {
+    line-height: 1;
 }
 
 .navigationDivider {
