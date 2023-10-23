@@ -8,9 +8,9 @@ const Home = lazy(() => import('./pages/home'));
 const Tutoring = lazy(() => import('./pages/tutoring'));
 
 const Worksheet = lazy(() => import('./pages/Worksheets'));
-const Bookcover = lazy(() => import('./pages/Worksheets/bookcover/Bookcover'));
-const Material = lazy(() => import('./pages/Worksheets/material/Material'));
-const Solution = lazy(() => import('./pages/Worksheets/solution/Solution'));
+const BookDetail = lazy(() => import('./pages/Worksheets/bookcover'));
+const BookMaterial = lazy(() => import('./pages/Worksheets/material'));
+const SolutionPage = lazy(() => import('./pages/Worksheets/solution'));
 
 const About = lazy(() => import('./pages/about'));
 const BlogPost = lazy(() => import('./pages/blog/BlogPost'));
@@ -36,11 +36,11 @@ const routes = createBrowserRouter([
             { path: 'blog', element: <BlogPost /> },
             { path: 'blog/:postId', element: <PostDetail /> },
             { path: 'worksheets', element: <Worksheet /> },
-            { path: 'worksheets/:bookName', element: <Bookcover /> },
-            { path: 'worksheets/:bookName/:chapterName/:materialName', element: <Material /> },
+            { path: 'worksheets/:bookName', element: <BookDetail /> },
+            { path: 'worksheets/:bookName/:chapterName/:materialName', element: <BookMaterial /> },
             {
                 path: 'worksheets/:bookName/:chapterName/:materialName/:questionId',
-                element: <Solution />,
+                element: <SolutionPage />,
             },
             {
                 path: 'worksheets/:bookName/:chapterName/:materialName/lectures/:topicId',
