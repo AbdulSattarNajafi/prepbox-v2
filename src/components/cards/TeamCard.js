@@ -7,7 +7,7 @@ const TeamCard = ({ image, name, occupation, description }) => {
                 <img src={image} alt={name} />
             </div>
             <div className={classes['card__body']}>
-                <h5>{name}</h5>
+                <h4>{name}</h4>
                 <p>{occupation}</p>
                 <p>{description}</p>
             </div>

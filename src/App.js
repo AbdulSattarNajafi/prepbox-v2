@@ -4,27 +4,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './layout';
 import PageLoader from './components/elements/PageLoader';
 
-// import Home from './pages/home';
-
-// import Tutoring from './pages/tutoring';
-
-// import Worksheet from './pages/Worksheets';
-// import Bookcover from './pages/Worksheets/bookcover/Bookcover';
-// import Material from './pages/Worksheets/material/Material';
-// import Solution from './pages/Worksheets/solution/Solution';
-
-// import About from './pages/about';
-// import BlogPost from './pages/blog/BlogPost';
-// import PostDetail from './pages/blog/post-detail/PostDetail';
-
-// import Support from './pages/support/Support';
-// import Lectures from './pages/lectures/Lectures';
-
-// import PrivacyPolicy from './pages/privacy-policy/PrivacyPolicy';
-// import Terms from './pages/terms/Terms';
-// import ThankYou from './pages/thankYou/ThankYou';
-// import NotFound from './pages/not-found/NotFound';
-
 const Home = lazy(() => import('./pages/home'));
 const Tutoring = lazy(() => import('./pages/tutoring'));
 

@@ -6,7 +6,7 @@
 .founderContent {
     display: flex;
     align-items: flex-start;
-    gap: 40px;
+    gap: 60px;
 }
 
 .texts {
@@ -15,14 +15,21 @@
 
 .texts p {
     font-size: 20px;
-    line-height: 1.6;
-    font-weight: 500;
     margin-bottom: 20px;
+}
+
+@media (max-width: 1199.98px) {
+    .founderContent {
+        gap: 40px;
+    }
 }
 
 @media (max-width: 991.98px) {
     .founderContent {
         gap: 32px;
+    }
+    .texts p {
+        font-size: 18px;
     }
 }
 @media (max-width: 767.98px) {
@@ -33,6 +40,10 @@
     }
     .texts {
         width: 100%;
+    }
+    .texts p {
+        font-size: 16px;
+        margin-bottom: 16px;
     }
     .texts h2 {
         margin-bottom: 20px;

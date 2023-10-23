@@ -16,7 +16,6 @@
 .card__title {
     position: relative;
     display: inline-block;
-    font-weight: 500;
 }
 
 .card__title::after {
@@ -30,7 +29,6 @@
 }
 
 .price {
-    font-weight: 500;
     margin: 40px 0;
 }
 
