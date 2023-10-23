@@ -12,7 +12,7 @@ const Result = () => {
                         <img src={ResultImage1} alt='Result' />
                     </div>
                     <div className={classes.texts}>
-                        <h3>We promise results with a guarantee</h3>
+                        <h4>We promise results with a guarantee</h4>
                         <p>
                             If you want to improve your test score with 100% certainty within 2
                             weeks or more, enroll today with a 100% money-back guarantee.
@@ -26,7 +26,7 @@ const Result = () => {
 
                 <div className={classes.resultContentBottom}>
                     <div className={classes.textsBottom}>
-                        <h3>Our care extends to college-level calculus</h3>
+                        <h4>Our care extends to college-level calculus</h4>
                         <p>
                             Whether you are behind in Grade 6 or 12 does not matter. I can teach
                             college students, and our programs deliver results up to college-level
