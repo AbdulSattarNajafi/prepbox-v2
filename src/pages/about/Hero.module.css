@@ -15,9 +15,7 @@
 }
 .hero__title {
     max-width: 550px;
-    font-weight: 500;
     color: #398fe5;
-    line-height: 1.8;
 }
 
 .hero__content-image {

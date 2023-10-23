@@ -7,11 +7,11 @@ const StudentProgress = () => {
             <div className='container'>
                 <div className={classes.sectionContent}>
                     <div className={classes.sectionContentTexts}>
-                        <h2>
+                        <h3>
                             <span className='text-blue'>Track student progress</span> you want
                             through detailed reports with
                             <span className='text-blue'> all work shown</span>
-                        </h2>
+                        </h3>
                         <p>
                             Know exactly how much progress has been made by the student, and ask
                             questions to the tutor for more intensive help

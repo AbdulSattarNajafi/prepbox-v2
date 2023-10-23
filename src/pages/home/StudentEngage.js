@@ -13,11 +13,11 @@ const StudentEngage = () => {
                     </div>
 
                     <div className={classes.sectionContentTexts}>
-                        <h2>
+                        <h3>
                             Engage your student in
                             <span className='text-blue'> low-stakes practice </span>
                             with <span className='text-blue'>instant marking*</span>
-                        </h2>
+                        </h3>
                         <p>
                             Instant marking by our A.I. improves focus and keeps students engaged,
                             which guarantees improvement

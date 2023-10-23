@@ -8,10 +8,10 @@ const StudentPractice = () => {
             <div className='container'>
                 <div className={classes.sectionContent}>
                     <div className={classes.sectionContentTexts}>
-                        <h2>
+                        <h3>
                             <span className='text-blue'>Jump to the section</span> you want your
                             student to practice
-                        </h2>
+                        </h3>
                         <p>
                             Pick the section you need from 500+ questions in the workbook. Don’t
                             worry about running out! PrepBox will generate more.

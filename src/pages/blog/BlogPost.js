@@ -6,7 +6,7 @@ import BlogCard from './../../components/cards/BlogCard';
 import classes from './BlogPost.module.css';
 
 const BlogPost = () => {
-    const [selectedCategory, setSelectedCategory] = useState('');
+    const [selectedCategory, setSelectedCategory] = useState('education');
 
     const filteredPosts = selectedCategory
         ? blogPosts.filter((post) => post.category === selectedCategory)
@@ -44,11 +44,17 @@ const BlogPost = () => {
                     />
                 </div>
 
-                <div className={classes['blog__grid']}>
-                    {filteredPosts.map((post) => {
-                        return <BlogCard key={post.id} post={post} />;
-                    })}
-                </div>
+                {filteredPosts.length > 0 ? (
+                    <div className={classes['blog__grid']}>
+                        {filteredPosts.map((post) => {
+                            return <BlogCard key={post.id} post={post} />;
+                        })}
+                    </div>
+                ) : (
+                    <div className={classes['blog__posts-empty']}>
+                        <p>Posts not Found!</p>
+                    </div>
+                )}
             </div>
         </article>
     );

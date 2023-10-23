@@ -4,7 +4,6 @@
 }
 
 .card__image img {
-    /* height: 300px; */
     width: 100%;
 }
 
@@ -13,16 +12,12 @@
     padding: 20px 5px;
 }
 
-.card__body h5 {
+.card__body h4 {
     color: #398fe5;
 }
 
 .card__body p {
-    font-size: 16px;
     margin-top: 20px;
-}
-
-@media (max-width: 991.98px) {
 }
 
 @media (max-width: 575.98px) {

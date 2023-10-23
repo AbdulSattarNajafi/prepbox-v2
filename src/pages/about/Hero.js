@@ -8,10 +8,10 @@ const Hero = () => {
             <div className='container'>
                 <div className={classes['hero__content']}>
                     <div className={classes['hero__content-text']}>
-                        <h4 className={classes['hero__title']}>
+                        <h3 className={classes['hero__title']}>
                             Our mission is to help parents and teachers focus on the human elements
                             of teaching math by using technology
-                        </h4>
+                        </h3>
                     </div>
 
                     <div className={classes['hero__content-image']}>

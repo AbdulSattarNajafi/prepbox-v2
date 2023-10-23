@@ -14,7 +14,7 @@
 .cardHeader h5 {
     text-align: center;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 500;
     color: #fefefe;
 }
 
@@ -27,7 +27,7 @@
     background-color: #ebebeb;
     border-radius: 15px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 16px;
     padding: 13px 2px;
 }

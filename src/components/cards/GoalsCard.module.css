@@ -16,14 +16,13 @@
 }
 
 .cardTitle {
+    font-size: 32px;
     color: #398fe5;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 .cardBody p {
     font-size: 20px;
-    line-height: 1.6;
-    font-weight: 500;
 }
 
 @media (max-width: 1199.98px) {
@@ -31,6 +30,7 @@
         margin-bottom: 20px;
     }
     .cardTitle {
+        font-size: 28px;
         margin-bottom: 16px;
     }
     .cardBody p {
@@ -38,14 +38,23 @@
     }
 }
 
+@media (max-width: 991.98px) {
+    .cardTitle {
+        font-size: 24px;
+    }
+}
+
 @media (max-width: 767.98px) {
     .cardTitle {
         margin-bottom: 10px;
     }
+    .cardBody p {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 575.98px) {
-    .cardBody p {
-        font-size: 16px;
+    .image img {
+        max-width: 300px;
     }
 }
